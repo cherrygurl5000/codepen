@@ -1,0 +1,58 @@
+html {
+  background-color: #FFFF99;
+}
+.main {
+  width: 351px;
+  height: 351px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+.circ-outer {
+  width: 350px;
+  height: 350px;
+  background: #E60000;
+  border-radius: 50%;
+  border: black solid 2px;
+  box-shadow: 5px 5px 5px darkslategray;
+}
+.circ-white {
+  height: 280px;
+  width: 280px;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  left: 35px;
+  top: 35px;
+  border: black solid 1px;
+  box-sizing: border-box;
+}
+.circ-red {
+  width: 210px;
+  height: 210px;
+  background: #E60000;
+  border-radius: 50%;
+  position: relative;
+  left: 35px;
+  top: 35px;
+  border: black solid 1px;
+  box-sizing: border-box;
+}
+.circ-blue {
+  width: 140px;
+  height: 140px;
+  background: #0000B3;
+  border-radius: 50%;
+  position: relative;
+  left: 35px;
+  top: 35px;
+  border: black solid 1px;
+  box-sizing: border-box;
+}
+.star {
+  -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  width: 140px;
+  height: 140px;
+  background: white;
+}

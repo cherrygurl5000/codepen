@@ -1,0 +1,55 @@
+html {
+  background: #3D5C5C;
+}
+.main {
+  width: 351px;
+  height: 351px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8%;
+}
+.outer {
+  width: 350px;
+  height: 350px;
+  border: black solid 2px;
+  border-radius: 50%;
+  background: #CC0000;
+}
+.inner {
+  width: 280px;
+  height: 280px;
+  background: black;
+  border-radius: 50%;
+  position: relative;
+  top: 35px;
+  left: 35px;
+}
+.midline {
+  width: 35px;
+  height: 300px;
+  background: #CC0000;
+  position: relative;
+  top: -255px;
+  left: 155px;
+}
+.eye-left {
+  width: 65px;
+  height: 45px;
+  background: white;
+  position: relative;
+  top: 120px;
+  left: 35px;
+  -webkit-clip-path: polygon(0% 0%, 100% 48%, 92% 65%, 81% 73%, 67% 78%, 57% 83%, 37% 74%, 23% 60%);
+clip-path: polygon(0% 0%, 100% 48%, 92% 65%, 81% 73%, 67% 78%, 57% 83%, 37% 74%, 23% 60%);
+}
+.eye-right {
+  width: 65px;
+  height: 45px;
+  background: white;
+  position: relative;
+  top: 76px;
+  left: 173px;
+  -webkit-clip-path: polygon(0% 0%, 100% 48%, 92% 65%, 81% 73%, 67% 78%, 57% 83%, 37% 74%, 23% 60%);
+clip-path: polygon(0% 0%, 100% 48%, 92% 65%, 81% 73%, 67% 78%, 57% 83%, 37% 74%, 23% 60%);
+  transform: scaleX(-1);
+}
